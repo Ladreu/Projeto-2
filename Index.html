@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O Tesouro Perdido da Ilha Misteriosa</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você encontra um mapa antigo enquanto limpa o sótão de uma casa antiga.</p>
+            <button class="btn-proximo" data-proximo="1">Seguir o Mapa</button>
+            <button class="btn-proximo" data-proximo="2">Ignorar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada na cidade costeira, decidindo como irá prosseguir para encontrar o tesouro.</p>
+            <button class="btn-proximo" data-proximo="3">Preparar Equipamentos</button>
+            <button class="btn-proximo" data-proximo="4">Ir Sem Preparação</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide não seguir o mapa e volta para sua rotina diária, mas se pergunta sobre o que poderia ter encontrado.</p>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Com seus equipamentos prontos, você precisa escolher o meio de transporte para sua aventura.</p>
+            <button class="btn-proximo" data-proximo="5">Barco</button>
+            <button class="btn-proximo" data-proximo="6">Avião</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você parte sem preparação, enfrentando desafios inesperados e acabando por desistir da aventura.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>No barco, você navega com cuidado e descobre uma pista importante para a próxima etapa da aventura.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir Para o Próximo Destino</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>De avião, você chega rapidamente, mas precisa decidir como explorar o local.</p>
+            <button class="btn-proximo" data-proximo="8">Explorar Imediatamente</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Você segue para o próximo destino e se depara com uma bifurcação no caminho.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir o Caminho à Esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir o Caminho à Direita</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Você decide explorar o local rapidamente, mas encontra dificuldades que o levam a um impasse.</p>
+            <button class="btn-proximo" data-proximo="7">Retornar e Tentar o Outro Caminho</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>O caminho à esquerda revela um tesouro escondido em uma caverna secreta.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o Tesouro</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>O caminho à direita leva a uma área sem saída, sem sinais do tesouro.</p>
+            <button class="btn-proximo" data-proximo="12">Voltar e Tentar o Outro Caminho</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="_d654edaa-32f7-4bdd-8d60-62eee53a771c.png" alt="descobrindo um tesouro escondido">
+            <p>Você encontra um tesouro incrível e decide dedicar-se a estudar e preservar o local.</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Você retorna e decide seguir o outro caminho, finalmente encontrando o tesouro escondido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o Tesouro</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
